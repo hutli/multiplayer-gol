@@ -1,0 +1,13 @@
+[package]
+name = "mulgol"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.*", features = ["full", "tracing", "time", "io-util"] }
+tokio-util = { version = "0.*", features = ["full"] }
+tokio-stream = { version = "0.*" }
+rand = { version="0.*" }
+indicatif = { version="0.*" }
