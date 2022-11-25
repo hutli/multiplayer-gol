@@ -11,3 +11,4 @@ tokio-util = { version = "0.*", features = ["full"] }
 tokio-stream = { version = "0.*" }
 rand = { version="0.*" }
 indicatif = { version="0.*" }
+chrono = { version="0.*", features = ["alloc", "std"] }
